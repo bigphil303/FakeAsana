@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/felipelima/Documents/Asana.CLI/Asana.Library/Asana.Library.csproj",
+      "projectUniqueName": "/Users/felipelima/Documents/GitHub/FakeAsana/Asana.Library/Asana.Library.csproj",
       "projectName": "Asana.Library",
-      "projectPath": "/Users/felipelima/Documents/Asana.CLI/Asana.Library/Asana.Library.csproj",
+      "projectPath": "/Users/felipelima/Documents/GitHub/FakeAsana/Asana.Library/Asana.Library.csproj",
       "packagesPath": "/Users/felipelima/.nuget/packages/",
-      "outputPath": "/Users/felipelima/Documents/Asana.CLI/Asana.Library/obj/",
+      "outputPath": "/Users/felipelima/Documents/GitHub/FakeAsana/Asana.Library/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/felipelima/.nuget/NuGet/NuGet.Config"

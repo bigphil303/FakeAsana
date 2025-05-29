@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,14 +9,14 @@ namespace Asana.Library.Models
 {
     public class ToDo
     {
-        private string? Name { get; set; }
-        private string? Description { get; set;}
-        private int? Priority { get; set; }
-        private bool? IsCompleted { get; set; }
+        public string? Name { get; set; }
+        public string? Description { get; set; }
+        public int? Priority { get; set; }
+        public bool? IsCompleted { get; set; }
 
-        public ToDo()
+        public override string ToString()
         {
-
+            return $"{Name} - {Description}";
         }
     }
 }

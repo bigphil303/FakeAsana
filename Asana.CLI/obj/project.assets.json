@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/felipelima/Documents/Asana.CLI/Asana.CLI/Asana.CLI.csproj",
+      "projectUniqueName": "/Users/felipelima/Documents/GitHub/FakeAsana/Asana.CLI/Asana.CLI.csproj",
       "projectName": "Asana.CLI",
-      "projectPath": "/Users/felipelima/Documents/Asana.CLI/Asana.CLI/Asana.CLI.csproj",
+      "projectPath": "/Users/felipelima/Documents/GitHub/FakeAsana/Asana.CLI/Asana.CLI.csproj",
       "packagesPath": "/Users/felipelima/.nuget/packages/",
-      "outputPath": "/Users/felipelima/Documents/Asana.CLI/Asana.CLI/obj/",
+      "outputPath": "/Users/felipelima/Documents/GitHub/FakeAsana/Asana.CLI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/felipelima/.nuget/NuGet/NuGet.Config"
@@ -51,8 +51,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/felipelima/Documents/Asana.CLI/Asana.Library/Asana.Library.csproj": {
-              "projectPath": "/Users/felipelima/Documents/Asana.CLI/Asana.Library/Asana.Library.csproj"
+            "/Users/felipelima/Documents/GitHub/FakeAsana/Asana.Library/Asana.Library.csproj": {
+              "projectPath": "/Users/felipelima/Documents/GitHub/FakeAsana/Asana.Library/Asana.Library.csproj"
             }
           }
         }

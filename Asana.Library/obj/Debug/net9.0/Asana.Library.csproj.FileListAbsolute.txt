@@ -1,0 +1,12 @@
+/Users/felipelima/Documents/GitHub/FakeAsana/Asana.Library/bin/Debug/net9.0/Asana.Library.deps.json
+/Users/felipelima/Documents/GitHub/FakeAsana/Asana.Library/bin/Debug/net9.0/Asana.Library.dll
+/Users/felipelima/Documents/GitHub/FakeAsana/Asana.Library/bin/Debug/net9.0/Asana.Library.pdb
+/Users/felipelima/Documents/GitHub/FakeAsana/Asana.Library/obj/Debug/net9.0/Asana.Library.GeneratedMSBuildEditorConfig.editorconfig
+/Users/felipelima/Documents/GitHub/FakeAsana/Asana.Library/obj/Debug/net9.0/Asana.Library.AssemblyInfoInputs.cache
+/Users/felipelima/Documents/GitHub/FakeAsana/Asana.Library/obj/Debug/net9.0/Asana.Library.AssemblyInfo.cs
+/Users/felipelima/Documents/GitHub/FakeAsana/Asana.Library/obj/Debug/net9.0/Asana.Library.csproj.CoreCompileInputs.cache
+/Users/felipelima/Documents/GitHub/FakeAsana/Asana.Library/obj/Debug/net9.0/Asana.Library.sourcelink.json
+/Users/felipelima/Documents/GitHub/FakeAsana/Asana.Library/obj/Debug/net9.0/Asana.Library.dll
+/Users/felipelima/Documents/GitHub/FakeAsana/Asana.Library/obj/Debug/net9.0/refint/Asana.Library.dll
+/Users/felipelima/Documents/GitHub/FakeAsana/Asana.Library/obj/Debug/net9.0/Asana.Library.pdb
+/Users/felipelima/Documents/GitHub/FakeAsana/Asana.Library/obj/Debug/net9.0/ref/Asana.Library.dll
