@@ -15,9 +15,10 @@ namespace Asana
                 Console.WriteLine("Choose a menu option:");
                 Console.WriteLine("1. Create a ToDo");
                 Console.WriteLine("2. List all ToDos");
-                Console.WriteLine("3. Exit");
+                Console.WriteLine("3. List all Outstanding ToDos");
+                Console.WriteLine("4. Exit");
 
-                var choice = Console.ReadLine() ?? "3";
+                var choice = Console.ReadLine() ?? "4";
 
                 if (int.TryParse(choice, out choiceInt))
                 {
@@ -29,14 +30,19 @@ namespace Asana
                             Console.Write("Description:");
                             var description = Console.ReadLine();
 
-                            toDos.Add(new ToDo { Name = name, Description = description });
+                            toDos.Add(new ToDo { Name = name, Description = description, IsCompleted = false });
                             break;
                         case 2:
                             toDos.ForEach(Console.WriteLine);
                             break;
                         case 3:
+                            toDos.Where(t => (t != null) && !(t?.IsCompleted ?? false))
+                                .ToList()
+                                .ForEach(Console.WriteLine);
                             break;
                         case 4:
+                            break;
+                        default:
                             Console.WriteLine("ERROR: Unknown menu selection");
                             break;
                     }
@@ -46,7 +52,7 @@ namespace Asana
                     Console.WriteLine($"ERROR: {choice} is not a valid menu selection");
                 }
 
-            } while (choiceInt != 3);
+            } while (choiceInt != 4);
         }
     }
 }
